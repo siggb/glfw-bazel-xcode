@@ -1,0 +1,16 @@
+language: cpp
+os: osx
+osx_image: xcode11.5
+gemfile:
+- Gemfile
+addons:
+  homebrew:
+    brewfile: true
+jobs:
+  include:
+    - stage: build
+      name: "Project"
+      script: "cd Project && bazel build //src:Project"
+    - stage: build
+      name: "Project with Submodules"
+      script: "cd ProjectWithSubmodules && bazel build //src:Project"

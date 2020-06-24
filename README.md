@@ -1,5 +1,7 @@
 ## Overview
 
+[![Build Status](https://travis-ci.org/siggb/glfw-bazel-xcode.svg?branch=master)](https://travis-ci.org/siggb/glfw-bazel-xcode)
+
 This is an example of possible Bazel configuration for GLFW library on MacOS 10.15.5 Catalina.
 
 [GLFW Documentation](https://www.glfw.org/documentation.html)
