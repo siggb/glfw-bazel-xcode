@@ -1,0 +1,4 @@
+[submodule "ProjectWithSubmodules/vendor/glfw"]
+	path = ProjectWithSubmodules/vendor/glfw
+	url = https://github.com/glfw/glfw.git
+	branch = master

@@ -1,0 +1,11 @@
+workspace(name = "Project")
+
+load("@bazel_tools//tools/build_defs/repo:git.bzl", "new_git_repository")
+
+new_git_repository(
+    name = "glfw",
+    remote = "https://github.com/glfw/glfw.git",
+    commit = "2539d037478549a0b76bf7572dab05e1fa1a4c96",
+    shallow_since = "1592952679 +0200",
+    build_file = "@//:BUILD",
+)
